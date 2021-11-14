@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(':core')
+
+    implementation group: 'io.prometheus', name: 'simpleclient_jetty', version: '0.6.0'
+}
