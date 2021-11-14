@@ -43,7 +43,7 @@ public final class SessionJDBC {
 
   private static JDBCSessionDataStoreFactory jdbcDataStoreFactory() {
     DatabaseAdaptor databaseAdaptor = new DatabaseAdaptor();
-    databaseAdaptor.setDriverInfo("org.postgresql.Driver", "jdbc:postgresql://localhost:5432/mrg_jetty_session?user=postgres&password=299bfe0536");
+    databaseAdaptor.setDriverInfo("org.postgresql.Driver", "jdbc:postgresql://localhost:5432/mrg_jetty_session?user=postgres&password=postgres");
     JDBCSessionDataStoreFactory jdbcSessionDataStoreFactory = new JDBCSessionDataStoreFactory();
     jdbcSessionDataStoreFactory.setDatabaseAdaptor(databaseAdaptor);
     return jdbcSessionDataStoreFactory;

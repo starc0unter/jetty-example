@@ -1,7 +1,7 @@
 jdbcdriver=org.postgresql.Driver
 url=jdbc:postgresql://localhost:5432/mrg_jetty
 username=postgres
-password=299bfe0536
+password=postgres
 
 usertable=security.users
 usertablekey=id
